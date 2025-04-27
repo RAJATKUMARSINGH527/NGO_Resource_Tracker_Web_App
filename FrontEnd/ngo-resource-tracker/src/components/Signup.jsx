@@ -14,7 +14,10 @@ export default function SignupForm() {
   const navigate = useNavigate();
 
   // API URL - change to match your backend API
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/auth';
+  // const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+  const API_URL = 'http://localhost:8000'; // Replace with your actual API URL
+
+
 
   const handleChange = (e) => {
     setFormData({
@@ -42,7 +45,7 @@ export default function SignupForm() {
 
     try {
       // Send signup request to the server
-      const response = await fetch(`${API_URL}/auth/register`, {
+      const response = await fetch(`${API_URL}/auth/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

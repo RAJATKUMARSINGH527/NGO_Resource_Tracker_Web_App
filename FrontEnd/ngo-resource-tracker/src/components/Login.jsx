@@ -11,7 +11,8 @@ export default function LoginForm() {
   const navigate = useNavigate();
 
   // API URL - change to match your backend API
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+  // const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+  const API_URL = 'http://localhost:8000'; // Replace with your actual API URL
 
   const handleChange = (e) => {
     setFormData({
@@ -144,7 +145,7 @@ export default function LoginForm() {
           <div className="text-center mt-4">
             <p className="text-sm text-gray-600">
               Don't have an account?{' '}
-              <a href="/register" className="font-medium text-blue-600 hover:text-blue-500">
+              <a href="/signup" className="font-medium text-blue-600 hover:text-blue-500">
                 Register here
               </a>
             </p>
