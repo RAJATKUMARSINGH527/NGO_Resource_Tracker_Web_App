@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import Dashboard from "../components/Dashboard";
-import Donors from "../components/Donors";
-import Inventory from "../components/Inventory";
-import Logistics from "../components/Logistics";
-// import Settings from "../components/Settings";
 import { 
   BarChart3, 
   Package, 
@@ -15,7 +10,8 @@ import {
   TrendingUp,
   Users,
   Truck,
-  // Settings
+  Settings as SettingsIcon,
+  X
 } from "lucide-react";
 
 function Home() {
