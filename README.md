@@ -19,8 +19,7 @@ Built with **React (frontend), Node.js/Express (backend), and MongoDB (database)
 ✅ Distribution planning and shipment tracking  
 ✅ Responsive UI for desktop and mobile devices  
 ✅ Secure API with JWT-based authentication  
-✅ Audit trails and compliance reporting  
-✅ Emergency response coordination tools  
+
 
 ### **🛠️ Tech Stack**
 
